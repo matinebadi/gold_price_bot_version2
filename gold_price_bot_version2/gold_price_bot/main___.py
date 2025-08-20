@@ -68,7 +68,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [KeyboardButton("تعیین افزوده خرید از ما (مثقال)"), KeyboardButton("تعیین افزوده خرید از ما (گرم)")],
         [KeyboardButton("تعیین کاهش فروش به ما (مثقال)"), KeyboardButton("تعیین کاهش فروش به ما (گرم)")],
         [KeyboardButton("📡 تنظیم کانال منبع")],
-        [KeyboardButton("💰 قیمت‌گذاری دستی")],  # دکمه جدید
+        [KeyboardButton("💰 قیمت‌گذاری دستی")], 
     ]
     markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
 
